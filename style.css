@@ -251,7 +251,7 @@ header{
     background-color: #dfdfd8;
     color: #2a2a2a;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 50%;
     align-items: center;
    
@@ -283,8 +283,9 @@ footer{
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 10%;
-        right: 5%;
+        top: 5%;
+        right: 10%;
+        margin-top: 3rem;
         background-color: #5f6ad4;
         color: white;
         width: 50px;
@@ -375,13 +376,18 @@ footer{
 
     .info-boxs{
         grid-template-columns: 1fr;
+        
+        
 
     }
 
+   
     .box img{
     width: 20rem;
     height: 13.338rem;
     }
+ 
+
 
     .box h1{
     font-size: 1.125rem;
@@ -415,4 +421,8 @@ footer{
     padding: 2rem;
     
 }
+
+
 }
+
+
