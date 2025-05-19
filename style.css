@@ -380,6 +380,7 @@ footer{
         
 
     }
+    
 
    
     .box img{
@@ -425,4 +426,13 @@ footer{
 
 }
 
-
+@media (max-width: 884px){
+    .info-boxs{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+    .box img{
+        width: 20rem;
+        height: 13.338rem;
+    }
+}
